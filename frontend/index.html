@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Player</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie List</h1>
+      <div id="error" class="error"></div>
+      <ul id="movie-list" class="movie-list"></ul>
+      <div id="now-playing" class="now-playing hidden">
+        <h2>Now Playing</h2>
+        <p><strong>Title:</strong> <span id="movie-title"></span></p>
+        <p>
+          <strong>Description:</strong> <span id="movie-description"></span>
+        </p>
+        <p><strong>Streaming:</strong> <span id="movie-streaming"></span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
